@@ -1,0 +1,6 @@
+#define NCHANNELS 4
+#define PER_CHANNEL_SAMPLE_RATE 20000
+
+#define ADC_GROUP_SIZE 4
+#define ADC_BUFFER_SIZE (ADC_GROUP_SIZE * NCHANNELS * 2) // * 2 for 2 halves
+
